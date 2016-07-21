@@ -322,6 +322,8 @@ body {
   margin-bottom: 25px;
   background-color: #4bcaff;
   border-radius: 2px;
+  background-clip: border-box;
+
 }
 .gallery__img {
   display: block;
@@ -331,7 +333,7 @@ body {
 .gallery__descript {
   margin: 0;
   position: absolute;
-  top: 79%;
+  top: 80%;
   width: 100%;
   padding: 13px 0;
   padding: 4.8% 0;
@@ -381,6 +383,7 @@ body {
    height: 100%;
    border-radius: 2px;
    background-color: rgba(65,64,66,0.4);
+   /*background-size: 100%;*/
 }
 .first__effect .gallery__mask {
   opacity: 0;
@@ -414,6 +417,7 @@ body {
 }
 .video__box {
   width: 68.4%;
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -636,7 +640,7 @@ body {
 }
 .review__box {
   position: relative;
-  max-width: 630px;
+  /*max-width: 630px;*/
   margin-left: 50%;
   transform: translateX(-50%);
   font-size: 15px;
@@ -994,7 +998,6 @@ body {
   right: auto;
   left: 50px;
 }
-
 
 
 

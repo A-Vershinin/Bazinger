@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 
 // воспроизводим видео по клику
 var handler = function () {
-	this.innerHTML = '<iframe src="https://www.youtube.com/embed/Q8v2WIvEJ3c" frameborder="0" border="0" allowfullscreen></iframe>;'};
-document.querySelector(".watch__video").addEventListener('click', function (e) {
+	this.innerHTML = '<iframe width="640" height="360"  src="https://www.youtube.com/embed/Q8v2WIvEJ3c" frameborder="0" border="0" allowfullscreen></iframe>;'};
+document.querySelector(".video__icon").addEventListener('click', function (e) {
 	this.removeEventListener('click', handler, false); handler.apply(this, arguments);
  } , false);
